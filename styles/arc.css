@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-all {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Sheared styles */
+.display-flex {
+    display: flex;
+}
+
+.dark-two {
+    color: #424242;
+}
+
+.dark-three {
+    color: #727272;
+}
+
+.bg-light {
+    background-color: #FFF4E7;
+}
+
+.primary-button {
+    background-color: #FF900E;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.main {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
+/* header styles */
+.full {
+    margin: 0 auto;
+}
+
+/* navbar styles */
+.Brand {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.nav {
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.nav>ul>li {
+    list-style: none;
+    margin-left: 30px
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+}
+
+.banner {
+
+    margin: 0 auto;
+}
+
+.banner-items {
+    text-align: center;
+    /*   margin: 0 auto; */
+}
+
+.banner-img {
+    max-width: 1120px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.banner-content {
+    max-width: 865px;
+    margin: 0 auto;
+}
+
+.banner-header {
+
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-des {
+    font-size: 1em;
+}
+
+/* first content */
+.First-content {
+    padding-top: 50px;
+    width: calc(100% - 450px);
+    margin: 0 auto;
+    gap: 70px;
+    margin-bottom: 30px;
+}
+
+.firstimg-size {
+    height: 250px;
+    width: 250px;
+}
+
+.img-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.cont-sec {
+
+    align-content: center;
+}
+
+/* Media Query section */
+@media screen and (max-width:576px) {
+    .full {
+        margin: 0;
+    }
+
+
+    .banner,
+    .display-flex,
+    .First-content {
+        flex-direction: column;
+
+    }
+
+    .First-content,
+    .firstimg-size {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .firstimg-size {
+        height: 180px;
+        width: 180px;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+    .First-content {
+        align-items: center;
+        width: calc(100% - 30px);
+        flex-direction: column;
+    }
+
+    .firstimg-size {
+        height: 200px;
+
+    }
+
+    .img-sec {
+        justify-content: center;
+        width: 800px;
+        display: flex;
+    }
+
+    .cont-sec {
+        width: 800px;
+        text-align: center;
+
+    }
+
+}
