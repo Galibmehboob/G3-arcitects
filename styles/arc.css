@@ -169,6 +169,36 @@
     color: #727272;
 }
 
+/* Sponsor style */
+.sponsor-container {
+
+    margin: 100px;
+}
+
+.sponsor-title {
+    text-align: center;
+    width: 545px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.sponsor-brand {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    filter: grayscale(100%);
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 20px 300px;
+    width: 620px;
+    justify-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
 /* Media Query section */
 @media screen and (max-width:576px) {
     .full {
